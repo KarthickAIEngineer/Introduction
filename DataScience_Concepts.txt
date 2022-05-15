@@ -1,0 +1,72 @@
+Data Science: Thank you Ramisha Rani for the awesome session :)
+    study about statistics
+    Exploratory Data analysis = Descriptive + Inferential    
+    Eg: Ice cream bar- gender, category of ice cream sold-> How can we improve the business with the given data
+    
+Application:
+    Binomial Probability-> Quality assurance of 1000 products-> Sampling inspection 100 products if 920 good and 80 bad then 92% good quality
+
+Key Terms:
+1. Population: all the values of the column
+2. Sample: Properties of population
+3. Statistic: Finding the value for sample dataset
+4. Parameter: statistic which gives value for the population
+5. Variable: No. of doctors who have been involved in one or more reaserch paper
+
+Eg: Vel Tech M1 average score 1000 students
+    Take one section average and same applicable to entire college
+    
+    Fair & Lovely
+    Done reaserch for all color with some people in each category and they are advertising this is applicable for same color people
+    
+Exploratory Data analysis:
+1. Univariate Data- one variable- Mean, average Eg: average of XII Marks
+2. Bivariate Data- two variable- cause and effect relationship Eg: Happiness and quality of life
+3. Multivariate Data- more than two variables- cause and effect of all variables
+
+Datatype:
+int 1 2 4 8
+float 2.1 4.7 11.9 13.97
+string "Ramisha Rani" "Karthick"
+
+Logic:
+age- int
+salary- float
+gender- object
+
+if(column.datatype==object):
+    print(Qual)
+else:
+    print(Quan)
+    
+Central Tendency:
+1. Mean: average of marks scored by ECE Department - How much petrol needed to travel from A to B
+2. Median: midpoint of data
+    total count
+    ascending order
+    odd->[(n+1)/2]th postion, even-> n/2, average of(n/2, n+1/2) value
+3. Mode: most repeated data point- Face detection of employees- Attendance
+
+Frequency:
+    How many students have spent 2 hrs daily for AI 
+Relative frequency:
+    Frequency/100
+Cumulative relative frequency:
+    summation
+    
+
+Percentage Vs Percentile:
+Percentage: Naveen scored 99% in XII examination
+Percentile: in which range people are standing
+
+dataset.isnull().sum()
+dataset.isna().sum() //To calculate null or empty values
+
+IQR(Interquartile Range):
+    To know the outlier range present in the dataset
+    IQR=Q3-Q1
+    Lesser outlier= Q1-1.5IQR not lesser than this value
+    Greater outlier=Q3+1.5IQR not greater than this value
+
+
+
